@@ -30,21 +30,21 @@ This project benchmarks the performance of **Go** and **C# (JIT)** when fetching
 - Docker (optional)  
 
 ### 🔹 Running the Go Server  
-```sh
+
 go mod tidy
 go run main.go
 
 
 Runs on http://localhost:8083/
 
-🔹 Running the C# Server
+### 🔹 Running the C# Server
 sh
 Copy
 Edit
 dotnet run
 Runs on http://localhost:8081/users
 
-🔹 Running the Load Test
+### 🔹 Running the Load Test
 sh
 Copy
 Edit
